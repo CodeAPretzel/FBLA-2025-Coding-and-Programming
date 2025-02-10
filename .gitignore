@@ -2,6 +2,7 @@
 logs
 *.log
 Notes/
+Documentation-and-Setup/**
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
