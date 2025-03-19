@@ -48,7 +48,12 @@
 
 <a name="about"></a>
 ### SmartAccount About 📜
-PROVIDE INPUT
+Are you a student needing to manage your finances? SmartAccount is a desktop software that allows users to manage and track account balances, income, and expenses. With this software, you will be able to input details about your income sources and expenses, including the amount, category, and date of each transaction.
+<br>
+
+<li></li><br>
+
+Each account you make and the data you create will be stored on your local system. However, to ensure other users can not access your data, our program encrypts the data and can only be accessed with a password you provide, making our software secure to use!
 
 <br>
 <br>
@@ -57,7 +62,14 @@ PROVIDE INPUT
 
 <a name="requirements"></a>
 ### SmartAccount Requirements 📑
-PROVIDE INPUT
+This software meets the requirements illustrated in the guidelines here: [FBLA GUIDELINES](https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Coding-and-Programming.pdf)
+
+- [x] The software should be an executable/program for the user to use.
+  - Software can be installed and used by an executable file on a Windows operating system only.
+- [x] The software should have features detailed in the requirements.
+  - Software can validate user input, provide intuitive user interfaces, filter and manage account information, and generate a report.
+- [x] The software should store data that the user provides.
+  - Software can securely store data on the local machine of the user.
 
 <br>
 <br>
@@ -66,7 +78,15 @@ PROVIDE INPUT
 
 <a name="inner-workings"></a>
 ### SmartAccount Inner Workings :gear:
-PROVIDE INPUT
+This application is structured in the following steps:
+1. User generates an account or authenticates themselves.
+2. User creates and manages their personal financial information.
+3. This information is securely stored on the local machine that can only be accessed with a password.
+4. The user can export their information in a PDF report and can delete their information in the application.
+
+<be>
+
+The entire application can be run locally without any internet connection, allowing workflow in any situation that can be managed by the user.
 
 <br>
 <br>
