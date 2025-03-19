@@ -86,7 +86,10 @@ This application is structured in the following steps:
 
 <be>
 
-The entire application can be run locally without any internet connection, allowing workflow in any situation that can be managed by the user.
+The entire application can be run locally without any internet connection, allowing workflow in any situation that can be managed by the user. Below is a code snippet on how the user's information is stored on their local system:
+
+```ts
+```
 
 <br>
 <br>
