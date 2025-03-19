@@ -1,6 +1,6 @@
 <div align = center>
 
-# - Software Name -
+# - SmartAccount -
 
 <br>
 
@@ -11,7 +11,7 @@
 <a name="download"></a>
 <br>
 
-<img src="./README-files/readme-logo.png" alt="software-name" height="25%" width="25%">
+<img src="./README-files/readme-logo.png" alt="SmartAccount Logo" height="25%" width="25%">
 
 <br>
 <br>
@@ -33,12 +33,12 @@
 <a name="documentation"></a>
 ### Documentation
 <ul>
-  <li><a href="#about">~Software~ About 📜</a></li>
-  <li><a href="#requirements">~Software~ Requirements 📑</a></li>
-  <li><a href="#download">~Software~ Download 🔧</a></li>
-  <li><a href="#inner-workings">~Software~ Inner Workings :gear:</a></li>
-  <li><a href="#recognition">~Software~ Recognition :sparkles:</a></li>
-  <li><a href="#future-developments">~Software~ Future Developments :ballot_box_with_check:</a></li>
+  <li><a href="#about">SmartAccount About 📜</a></li>
+  <li><a href="#requirements">SmartAccount Requirements 📑</a></li>
+  <li><a href="#download">SmartAccount Download 🔧</a></li>
+  <li><a href="#inner-workings">SmartAccount Inner Workings :gear:</a></li>
+  <li><a href="#recognition">SmartAccount Recognition :sparkles:</a></li>
+  <li><a href="#future-developments">SmartAccount Future Developments :ballot_box_with_check:</a></li>
 </ul>
 
 <br>
@@ -47,7 +47,7 @@
 <!--------------------------------- About ------------------------------------------->
 
 <a name="about"></a>
-### ~Software~ About 📜
+### SmartAccount About 📜
 PROVIDE INPUT
 
 <br>
@@ -56,7 +56,7 @@ PROVIDE INPUT
 <!--------------------------------- Requirements ------------------------------------------->
 
 <a name="requirements"></a>
-### ~Software~ Requirements 📑
+### SmartAccount Requirements 📑
 PROVIDE INPUT
 
 <br>
@@ -65,7 +65,7 @@ PROVIDE INPUT
 <!--------------------------------- Inner Workings ------------------------------------------->
 
 <a name="inner-workings"></a>
-### ~Software~ Inner Workings :gear:
+### SmartAccount Inner Workings :gear:
 PROVIDE INPUT
 
 <br>
@@ -74,7 +74,7 @@ PROVIDE INPUT
 <!--------------------------------- Recognition ------------------------------------------->
 
 <a name="recognition"></a>
-### ~Software~ Recognition :sparkles:
+### SmartAccount Recognition :sparkles:
 PROVIDE INPUT
 
 <br>
@@ -83,7 +83,7 @@ PROVIDE INPUT
 <!--------------------------------- Future Developments ------------------------------------------->
 
 <a name="future-developments"></a>
-### ~Software~ Future Developments :ballot_box_with_check:
+### SmartAccount Future Developments :ballot_box_with_check:
 PROVIDE INPUT
 
 <br>
@@ -93,5 +93,5 @@ PROVIDE INPUT
 
 <!--------------------------------- Variables ------------------------------------------->
 
-[KBD]: https://github.com/CodeAPretzel/FBLA-2025-Coding-and-Programming/raw/main/<software-name>.exe
+[KBD]: https://github.com/CodeAPretzel/FBLA-2025-Coding-and-Programming/raw/main/SmartAccount.exe
 [GOTO]: #documentation
