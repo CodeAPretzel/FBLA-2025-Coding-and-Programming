@@ -17,7 +17,7 @@
 <br>
 <br>
 
-[<kbd> <br> VISIT WEBSITE <br> </kbd>][KBD]
+[<kbd> <br> VISIT APPLICATION <br> </kbd>][KBD]
 
 <br>
 
@@ -84,7 +84,7 @@ This application is structured in the following steps:
 3. Information exchanged between the user and application is secure and cannot be viewed by others, including the development team.
 4. The user can view their transactions and manage bank accounts.
 
-<be>
+<br>
 
 Below are environment variables used in the application and their specific use case:
 
@@ -115,6 +115,8 @@ DWOLLA_BASE_URL="https://api-sandbox.dwolla.com"                 // Site for Dwo
 DWOLLA_ENV="sandbox"                                             // Development type for Dwolla { sandbox, production }
 ```
 
+<br>
+
 Below is a simplified diagram of what the application looks like logically:
 
 <img src="./README-files/smartaccount-diagram.png" alt="SmartAccount Logo" height="60%" width="60%">
@@ -134,8 +136,17 @@ We used the following applications for our project:
 <img src="https://img.shields.io/badge/Chart%20js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black">
 <img src="https://img.shields.io/badge/Sentry-black?style=for-the-badge&logo=Sentry&logoColor=#362D59">
-<img src="https://www.logo.wine/a/logo/Plaid_(company)/Plaid_(company)-Vertical-Logo.wine.svg" height="10%" width="10%">
-<img src="https://www.nacha.org/sites/default/files/2023-11/dwolla-logo-full-color.png" height="10%" width="10%">
+<img src="./README-files/plaid-logo.png" height="7%" width="7%">
+<img src="./README-files/dwolla-logo.png" height="10%" width="10%">
+
+<br><b>Nextjs</b>: The framework of the application.
+<br><b>Shadcn</b>: Provided useful UI components.
+<br><b>TailwindCSS</b>: Provided Pre-defined CSS classes for Shadcn.
+<br><b>Chartjs</b>: Library that the application used for its charts.
+<br><b>Appwrite</b>: The database of the application for user data.
+<br><b>Sentry</b>: A developer analytics tools for debugging.
+<br><b>Plaid</b>: Third-party component in the application for integrating real-world banks.
+<br><b>Dwolla</b>: Used by Plaid to access user information for the banks.
 
 <br>
 <br>
