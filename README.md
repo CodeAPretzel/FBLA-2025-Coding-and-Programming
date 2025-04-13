@@ -11,7 +11,7 @@
 <a name="download"></a>
 <br>
 
-<img src="./smartaccount/public/icons/logo.svg" alt="SmartAccount Logo" height="25%" width="25%">
+<img src="./public/icons/logo.svg" alt="SmartAccount Logo" height="25%" width="25%">
 
 <br>
 <br>
