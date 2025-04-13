@@ -48,12 +48,12 @@
 
 <a name="about"></a>
 ### SmartAccount About 📜
-Are you needing to manage your finances? SmartAccount is an application that allows users to manage and track finances through real-world banking accounts. With this application, you will be able to view details about your balance, income, and expenses—such as the amount, category, date of each transaction, and more!
+Do you need to manage your finances? SmartAccount is an application that allows users to manage and track finances through real-world banking accounts. With this application, you can view details about your balance, income, and expenses—such as the amount, category, date of each transaction, and more!
 <br>
 
 <li></li><br>
 
-Each bank account you create will be stored on our server hosted by [Appwrite](https://appwrite.io/). Appwrite ensures the authenticity and secure transmission of account information.
+Each bank account you create will be stored on our server, hosted by [Appwrite](https://appwrite.io/). Appwrite ensures the authenticity and secure transmission of account information.
 
 <br>
 <br>
@@ -65,9 +65,9 @@ Each bank account you create will be stored on our server hosted by [Appwrite](h
 This software meets the requirements illustrated in the guidelines here: [FBLA GUIDELINES](https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Coding-and-Programming.pdf)
 
 - [x] The application should be easily accessible and usable for the user.
-  - Application has intuitive and manageable user-interfaces.
+  - Application has intuitive and manageable user interfaces.
 - [x] The application should have features detailed in the requirements.
-  - Application can validate user input, provide bank account information, filter categorize information, and has other options.
+  - Application can validate user input, provide bank account information, filter categorized information, and has other options.
 - [x] The application should store data that the user provides.
   - Application securely stores data on our Appwrite server.
 
@@ -79,9 +79,9 @@ This software meets the requirements illustrated in the guidelines here: [FBLA G
 <a name="inner-workings"></a>
 ### SmartAccount Inner Workings :gear:
 This application is structured in the following steps:
-1. User generates an account or authenticates themselves.
-2. User integrates their bank account into the application.
-3. Information exchanged between the user and application is secure and cannot be viewed by others, including the development team.
+1. The user generates an account or authenticates themself.
+2. The user integrates their bank account into the application.
+3. Information is exchanged between the user and application securely and cannot be viewed by others, including the development team.
 4. The user can view their transactions and manage bank accounts.
 
 <br>
