@@ -48,12 +48,12 @@
 
 <a name="about"></a>
 ### SmartAccount About 📜
-Are you a student needing to manage your finances? SmartAccount is a desktop software that allows users to manage and track account balances, income, and expenses. With this software, you will be able to input details about your income sources and expenses, including the amount, category, and date of each transaction.
+Are you needing to manage your finances? SmartAccount is an application that allows users to manage and track finances through real-world banking accounts. With this application, you will be able to view details about your balance, income, and expenses—such as the amount, category, date of each transaction, and more!
 <br>
 
 <li></li><br>
 
-Each account you make and the data you create will be stored on your local system. However, to ensure other users can not access your data, our program encrypts the data and can only be accessed with a password you provide, making our software secure to use!
+Each bank account you create will be stored on our server hosted by [Appwrite](https://appwrite.io/). Appwrite ensures the authenticity and secure transmission of account information.
 
 <br>
 <br>
@@ -64,12 +64,12 @@ Each account you make and the data you create will be stored on your local syste
 ### SmartAccount Requirements 📑
 This software meets the requirements illustrated in the guidelines here: [FBLA GUIDELINES](https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Coding-and-Programming.pdf)
 
-- [x] The software should be an executable/program for the user to use.
-  - Software can be installed and used by an executable file on a Windows operating system only.
-- [x] The software should have features detailed in the requirements.
-  - Software can validate user input, provide intuitive user interfaces, filter and manage account information, and generate a report.
-- [x] The software should store data that the user provides.
-  - Software can securely store data on the local machine of the user.
+- [x] The application should be easily accessible and usable for the user.
+  - Application has intuitive and manageable user-interfaces.
+- [x] The application should have features detailed in the requirements.
+  - Application can validate user input, provide bank account information, filter categorize information, and has other options.
+- [x] The application should store data that the user provides.
+  - Application securely stores data on our Appwrite server.
 
 <br>
 <br>
@@ -80,16 +80,44 @@ This software meets the requirements illustrated in the guidelines here: [FBLA G
 ### SmartAccount Inner Workings :gear:
 This application is structured in the following steps:
 1. User generates an account or authenticates themselves.
-2. User creates and manages their personal financial information.
-3. This information is securely stored on the local machine that can only be accessed with a password.
-4. The user can export their information in a PDF report and can delete their information in the application.
+2. User integrates their bank account into the application.
+3. Information exchanged between the user and application is secure and cannot be viewed by others, including the development team.
+4. The user can view their transactions and manage bank accounts.
 
 <be>
 
-The entire application can be run locally without any internet connection, allowing workflow in any situation that can be managed by the user. Below is a code snippet on how the user's information is stored on their local system:
+Below are environment variables used in the application and their specific use case:
 
 ```ts
+#NEXT
+NEXT_PUBLIC_SITE_URL="https://smartaccount-fbla.vercel.app/"     // Site for deployment
+
+#APPWRITE
+NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"     // Site for Appwrite endpoint fetching
+NEXT_PUBLIC_APPWRITE_PROJECT="<>"                                // ID for this application in Appwrite
+APPWRITE_DATABASE_ID="<>"                                        // ID for database
+APPWRITE_USER_COLLECTION_ID="<>"                                 // ID for user data
+APPWRITE_BANK_COLLECTION_ID="<>"                                 // ID for bank data
+APPWRITE_TRANSACTION_COLLECTION_ID="<>"                          // ID for transaction data
+NEXT_APPWRITE_KEY="<>"                                           // Private key for Appwrite and client communication 
+
+#PLAID
+PLAID_CLIENT_ID="<>"                                             // ID for this application in Plaid
+PLAID_SECRET="<>"                                                // Secret for this application in Plaid
+PLAID_ENV="sandbox"                                              // Development type for Plaid { sandbox, development, production }
+PLAID_PRODUCTS="auth,transactions,identity"                      // Product types for client
+PLAID_COUNTRY_CODES="US,CA"                                      // Banks within countries codes
+
+#DWOLLA
+DWOLLA_KEY="<>"                                                  // Private key for Dwolla and Plaid communication
+DWOLLA_SECRET="<>"                                               // Secret for this application in Dwolla
+DWOLLA_BASE_URL="https://api-sandbox.dwolla.com"                 // Site for Dwolla endpoint fetching
+DWOLLA_ENV="sandbox"                                             // Development type for Dwolla { sandbox, production }
 ```
+
+Below is a simplified diagram of what the application looks like logically:
+
+<img src="./public/icons/logo.svg" alt="SmartAccount Logo" height="25%" width="25%">
 
 <br>
 <br>
@@ -107,7 +135,9 @@ PROVIDE INPUT
 
 <a name="future-developments"></a>
 ### SmartAccount Future Developments :ballot_box_with_check:
-PROVIDE INPUT
+- [ ] Improve Resource Loading and Processing Management
+- [ ] Create a Q&A
+- [ ] Go into Production
 
 <br>
 
@@ -116,5 +146,5 @@ PROVIDE INPUT
 
 <!--------------------------------- Variables ------------------------------------------->
 
-[KBD]: https://github.com/CodeAPretzel/FBLA-2025-Coding-and-Programming/raw/main/SmartAccount.exe
+[KBD]: https://smartaccount-fbla.vercel.app/
 [GOTO]: #documentation
