@@ -35,7 +35,7 @@
 <ul>
   <li><a href="#about">SmartAccount About 📜</a></li>
   <li><a href="#requirements">SmartAccount Requirements 📑</a></li>
-  <li><a href="#download">SmartAccount Download 🔧</a></li>
+  <li><a href="#download">SmartAccount Access 🔧</a></li>
   <li><a href="#inner-workings">SmartAccount Inner Workings :gear:</a></li>
   <li><a href="#recognition">SmartAccount Recognition :sparkles:</a></li>
   <li><a href="#future-developments">SmartAccount Future Developments :ballot_box_with_check:</a></li>
