@@ -117,7 +117,7 @@ DWOLLA_ENV="sandbox"                                             // Development 
 
 Below is a simplified diagram of what the application looks like logically:
 
-<img src="./public/icons/logo.svg" alt="SmartAccount Logo" height="25%" width="25%">
+<img src="./README-files/smartaccount-diagram.png" alt="SmartAccount Logo" height="60%" width="60%">
 
 <br>
 <br>
@@ -126,7 +126,16 @@ Below is a simplified diagram of what the application looks like logically:
 
 <a name="recognition"></a>
 ### SmartAccount Recognition :sparkles:
-PROVIDE INPUT
+We used the following applications for our project:
+<br>
+<img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+<img src="https://img.shields.io/badge/Chart%20js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black">
+<img src="https://img.shields.io/badge/Sentry-black?style=for-the-badge&logo=Sentry&logoColor=#362D59">
+<img src="https://www.logo.wine/a/logo/Plaid_(company)/Plaid_(company)-Vertical-Logo.wine.svg" height="10%" width="10%">
+<img src="https://www.nacha.org/sites/default/files/2023-11/dwolla-logo-full-color.png" height="10%" width="10%">
 
 <br>
 <br>
