@@ -136,6 +136,7 @@ We used the following applications for our project:
 <img src="https://img.shields.io/badge/Chart%20js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black">
 <img src="https://img.shields.io/badge/Sentry-black?style=for-the-badge&logo=Sentry&logoColor=#362D59">
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
 <img src="./README-files/plaid-logo.png" height="7%" width="7%">
 <img src="./README-files/dwolla-logo.png" height="10%" width="10%">
 
@@ -145,6 +146,7 @@ We used the following applications for our project:
 <br><b>Chartjs</b>: Library that the application used for its charts.
 <br><b>Appwrite</b>: The database of the application for user data.
 <br><b>Sentry</b>: A developer analytics tools for debugging.
+<br><b>Vercel</b>: Our hosting platform for our application.
 <br><b>Plaid</b>: Third-party component in the application for integrating real-world banks.
 <br><b>Dwolla</b>: Used by Plaid to access user information for the banks.
 
