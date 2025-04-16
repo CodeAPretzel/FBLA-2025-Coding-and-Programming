@@ -86,7 +86,7 @@ This application is structured in the following steps:
 
 <br>
 
-Below are environment variables used in the application and their specific use case:
+Below are example environment variables used in the application and their specific use case:
 
 ```ts
 #NEXT
