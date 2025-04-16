@@ -150,6 +150,10 @@ We used the following applications for our project:
 <br><b>Plaid</b>: Third-party component in the application for integrating real-world banks.
 <br><b>Dwolla</b>: Used by Plaid to access user information for the banks.
 
+-
+
+<b>Tutorial by JavaScript Mastery</b>: https://www.youtube.com/watch?v=PuOVqP_cjkE
+
 <br>
 <br>
 
@@ -159,6 +163,8 @@ We used the following applications for our project:
 ### SmartAccount Future Developments :ballot_box_with_check:
 - [ ] Improve Resource Loading and Processing Management
 - [ ] Create a Q&A
+- [ ] Downloadable Report
+- [ ] More Customization
 - [ ] Go into Production
 
 <br>
